@@ -1,0 +1,23 @@
+Inheritance is a fundamental concept in object-oriented programming (OOP) that allows a new class to be based on an existing class, inheriting its properties and methods. In Java, inheritance is implemented using the "extends" keyword.
+
+The existing class is called the superclass or parent class, and the new class is called the subclass or child class. The subclass inherits all the members (fields, methods, and nested classes) of the superclass, except for the private members.
+
+Here are some terminologies related to inheritance in Java:
+
+- Superclass: The class that is being inherited from. It is also called the parent class or base class.
+
+- Subclass: The class that is inheriting from the superclass. It is also called the child class or derived class.
+
+- Inheritance hierarchy: A tree-like structure that shows the relationships between the superclass and its subclasses.
+
+- Single inheritance: A type of inheritance where a subclass has only one superclass.
+
+- Multilevel inheritance: A type of inheritance where a subclass inherits from a superclass, which in turn inherits from another superclass, and so on.
+
+- Hierarchical inheritance: A type of inheritance where multiple subclasses inherit from the same superclass.
+
+- Multiple inheritance: A type of inheritance where a subclass inherits from more than one superclass. Java does not support multiple inheritance. However, it can be achieved using interfaces. 
+
+- Method overriding: A feature of inheritance where a subclass can provide its own implementation of a method that is already defined in the superclass. The method in the subclass must have the same name and signature as the method in the superclass.
+
+- Super keyword: A keyword in Java that refers to the superclass. It is used to call the superclass constructor, access the superclass members, and invoke the overridden superclass method.

@@ -1,0 +1,38 @@
+{
+	"Java Code Snippet": {
+		"prefix": "oops",
+		"body": [
+			"import java.util.*;",
+			"",
+			"public class ${1:ClassName} {",
+			"\tpublic static void main(String[] args) {",
+			"\t\t${0:// code here}",
+			"\t}",
+			"}"
+		],
+		"description": "Main method for Java application"
+	},
+	"Main Method": {
+		"prefix": "main",
+		"body": [
+			"public static void main(String[] args) {",
+			"\t${0:// code here}",
+			"}"
+		],
+		"description": "Main method for Java application"
+	},
+	"Print Line": {
+		"prefix": "println",
+		"body": [
+			"System.out.println($0)"
+		],
+		"description": "Print line to console"
+	},
+	"Scanner": {
+		"prefix": "sc",
+		"body": [
+			"Scanner sc = new Scanner(System.in);"
+		],
+		"description": "Take Input From User"
+	}
+}

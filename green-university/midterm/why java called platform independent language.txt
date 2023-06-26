@@ -1,0 +1,10 @@
+Question: Why Java called as platform independent language?
+Answer: 
+Java is called as platform independent language because it is not dependent on any hardware or operating system. It is compiled into byte code which is interpreted by JVM. So, it is platform independent language.
+
+
+Java is often referred to as a "platform-independent" or "portable" language because it can be compiled into an intermediate bytecode that can run on any platform that has a Java Virtual Machine (JVM). This bytecode can be executed on any computer system that has a compatible JVM installed, regardless of the underlying hardware and operating system.
+
+The key to Java's platform independence is the JVM. When you compile a Java program, the code is converted into bytecode that is designed to run on the JVM, rather than the underlying hardware or operating system. The JVM is responsible for executing the bytecode and translating it into machine-specific instructions. This allows Java programs to be written once and run anywhere, as long as a compatible JVM is available for the target platform.
+
+In other words, the platform independence of Java is achieved by abstracting the application from the underlying hardware and operating system, and instead relying on the JVM to provide a consistent and portable execution environment. This makes Java a popular choice for developing cross-platform applications, such as desktop and mobile apps, web applications, and enterprise software.

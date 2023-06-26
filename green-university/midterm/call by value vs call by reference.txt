@@ -1,0 +1,7 @@
+In Java, when we pass arguments to a method, we can do so by either call by value or call by reference.
+
+Call by value means that a copy of the argument value is passed to the method, so any changes made to the parameter within the method do not affect the original argument value. 
+
+Call by reference means that a reference to the original object is passed to the method, so any changes made to the parameter within the method affect the original object.
+
+Note that in Java, only call by value is used for primitive data types like int, float, etc. For objects, the reference to the object is passed by value, so it behaves like call by reference.

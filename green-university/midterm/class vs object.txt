@@ -1,0 +1,15 @@
+In Java, a class is a blueprint or a template for creating objects, while an object is an instance of a class. Here are some of the key differences between class and object:
+
+- Definition: A class is a template or a blueprint that defines the variables, methods, and behavior of objects. An object, on the other hand, is a specific instance of a class.
+
+- Usage: A class is used to create objects, whereas objects are used to perform operations or access data.
+
+- Access: Classes are accessible by their name, while objects are accessed through a reference variable.
+
+- Memory allocation: A class is not allocated memory until it is instantiated or used to create objects. On the other hand, an object is allocated memory as soon as it is created.
+
+- Modifiability: Classes can be modified by adding or removing methods, variables, or behavior. Objects, once created, cannot be modified.
+
+- Inheritance: Classes can be inherited by other classes to create new classes with additional features. Objects cannot be inherited.
+
+In summary, a class is a blueprint or a template for creating objects, while an object is an instance of a class that has its own state and behavior. Classes provide the structure for objects, while objects are the entities that perform actions and store data.

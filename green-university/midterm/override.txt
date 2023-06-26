@@ -1,0 +1,54 @@
+Solution 1:
+
+In Java, the @Override annotation is used to indicate that a method in a subclass is intended to override a method with the same name and signature in its superclass. The @Override annotation is optional, but it is considered good practice to use it when overriding a method to help prevent accidental mistakes.
+
+Here are some reasons why @Override is used in Java:
+
+- Ensuring correctness: By using @Override, the compiler can check that the method in the subclass is indeed intended to override the method in the superclass. This helps to ensure that the program behaves as intended and avoids accidental mistakes.
+
+- Improving readability: When reading code, the @Override annotation makes it clear that a method is intended to override a method in the superclass, rather than being a new method with a different name or signature.
+
+- Helping with refactoring: If a method in the superclass is renamed or removed, using @Override in the subclass will cause a compiler error, indicating that the method needs to be updated. This helps to catch errors early and avoid problems in the future.
+
+- Encouraging good design: Using @Override encourages good design practices by making it clear which methods are part of the public interface of a class and which methods are intended to be overridden by subclasses.
+
+
+Solution 2:
+
+In Java, the @Override annotation is used to indicate that a method in a subclass is intended to override a method with the same name and signature in its superclass. The @Override annotation is optional, but it is considered good practice to use it when overriding a method to help prevent accidental mistakes.
+
+When to use @Override:
+You should use @Override whenever you are overriding a method in a subclass, to ensure that your code is correct and readable. Here are some examples of when you might use @Override:
+
+- When you are implementing an interface method in a class
+    When you are extending a class and want to override one of its methods
+- When you are implementing an abstract method in a subclass
+
+How to use @Override:
+To use @Override, you simply add it before the method declaration in your subclass.
+
+
+
+
+
+
+The error message "incompatible types: Override cannot be converted to java.lang.annotation.Annotation" in Java typically occurs when the @Override annotation is being used incorrectly.
+
+The @Override annotation is used to indicate that a method in a subclass is intended to override a method with the same name and signature in its superclass. It is not used as a regular annotation to add metadata to a method.
+
+
+
+The annotation Override is defined as
+
+@interface Override {
+....
+
+and you have defined a class named Override too...
+
+this is generating conflicts in the compiler because one name is related to 2 different things in the project...
+
+rename your class to something different like MyOverride or use for the annotation the full name of the annotation.
+
+@java.lang.Override
+ public void overloadedMethod(String s){...
+

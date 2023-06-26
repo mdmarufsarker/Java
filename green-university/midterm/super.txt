@@ -1,0 +1,11 @@
+The super keyword in Java is used to refer to the superclass of the current object, and can be used to access its members, including its constructors, instance variables, and methods. Here are some common use cases of super in Java:
+
+- Accessing superclass constructors: When a subclass is created, it needs to call the constructor of its superclass to properly initialize the inherited fields. This can be done using the super() constructor call, which must be the first statement in the subclass constructor.
+
+- Accessing superclass methods: A subclass can call a method of its superclass using the super keyword. This can be useful when the subclass needs to override a method of the superclass, but still wants to call the original implementation of the method.
+
+- Accessing superclass variables: A subclass can also access the instance variables of its superclass using the super keyword. This can be useful when the subclass needs to access or modify a field inherited from the superclass.
+
+- Invoking overridden methods: If a subclass overrides a method of its superclass, it can call the original implementation of the method using the super keyword. This can be useful when the subclass wants to add functionality to the method, but still wants to call the original implementation.
+
+- Invoking superclass static members: The super keyword can also be used to access the static members of a superclass. However, this is not a common use case since static members are usually accessed using the class name.

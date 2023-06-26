@@ -1,0 +1,13 @@
+In Java, both abstract classes and interfaces are used to define abstract types that cannot be instantiated directly. However, there are some key differences between them, including:
+
+- Method implementation: Abstract classes can have both abstract and non-abstract methods, while interfaces can only have abstract methods (prior to Java 8). Abstract classes can provide default implementations for some or all of their methods, whereas interfaces cannot.
+
+- Inheritance: A class can only inherit from one abstract class, but can implement multiple interfaces. This is because Java does not support multiple inheritance of classes, but does support multiple inheritance of interfaces.
+
+- Access modifiers: Abstract classes can have any access modifier (public, private, protected, or package-private) for their methods and variables, while interfaces are always public.
+
+- Object creation: Abstract classes cannot be instantiated directly, but can be subclassed to create concrete classes. Interfaces cannot be instantiated or subclassed directly, but can be implemented by classes to provide their functionality.
+
+- Purpose: Abstract classes are used to provide a base implementation for a family of related classes, while interfaces are used to define a contract for a specific set of behaviors that can be implemented by multiple unrelated classes.
+
+In summary, abstract classes and interfaces both define abstract types in Java, but have different uses and characteristics. Abstract classes provide a base implementation for related classes, can have both abstract and non-abstract methods, and can have any access modifier. Interfaces define a contract for specific behaviors, can only have abstract methods (prior to Java 8), are always public, and can be implemented by multiple unrelated classes.

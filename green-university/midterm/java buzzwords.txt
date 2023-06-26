@@ -1,0 +1,13 @@
+Buzzwords List on Java
+======================
+
+1. Simple
+2. Secure
+3. Portable
+4. Object Oriented
+5. Robust
+6. Multithreaded
+7. Architecture Neutral
+8. High Performance
+9. Distributed
+10. Dynamic

@@ -1,0 +1,14 @@
+Basic structure of OOP
+=======================
+
+function()
+data            class A
+                            package X
+function()      class B
+data
+                                            Library
+function()
+data            class A
+                            package X
+function()      class B
+data
