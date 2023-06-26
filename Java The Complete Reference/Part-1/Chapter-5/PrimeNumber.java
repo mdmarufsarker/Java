@@ -10,6 +10,8 @@ public class PrimeNumber {
         System.out.print("Enter a number: ");
         num = sc.nextInt();
 
+        sc.close();
+
         if(num < 2)
             isPrime = false;
         else

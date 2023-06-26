@@ -17,6 +17,8 @@ public class DoWhile1 {
             choice = sc.next().charAt(0);
         } while(choice < '1' || choice > '5');
 
+        sc.close();
+
         System.out.println("\n");
 
         switch(choice){
