@@ -2,3 +2,8 @@ tmp
 Main.class
 *.class
 .idea
+build
+nbproject
+test
+build.xml
+manifest.mf
